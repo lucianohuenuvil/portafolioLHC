@@ -1,0 +1,63 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+
+.container-content-page{
+    width: 100%;
+    height: 80vh;
+    background-image: url("/static/img/fondo.png");
+    filter: brightness(50%);
+    padding: 50px 200px 200px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-navbar{
+
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+
+}
+
+.container-slider{
+    width: 100%;
+    height: 80%;
+    background-color: green;
+}
+
+
+
+
+
+
+
+.container-projects{
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(243, 243, 243);
+    padding: 30px 200px 200px 0px;
+}
+
+
+.container-main{
+
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 200px 200px 0px;
+
+}
+
+.container-footer{
+
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(17, 17, 17);
+    padding: 30px 200px 200px 0px;
+
+
+}

@@ -3,34 +3,103 @@
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p, b {
+    margin: 0;
+}
+
 
 .container-content-page{
     width: 100%;
     height: 80vh;
     background-image: url("/static/img/fondo.png");
-    filter: brightness(50%);
-    padding: 50px 200px 200px 150px;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 
 .container-navbar{
 
-    width: 100%;
-    height: 20%;
-    background-color: gray;
+    width: 60%;
+    height: 15%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.main-navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.main-navbar h1{
+    font-size: 30px;
+}
+
+.item-navbar{
+    display: flex;
 
 }
+
+.item{
+    
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 
 .container-slider{
-    width: 100%;
-    height: 80%;
-    background-color: green;
+
+    width: 60%;
+    height: 85%;
+    color: white;
+    overflow: hidden;
+
 }
 
+.container-slider-content{
+
+    width: 500%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+.slides{
+    width: 20%;
+    transition: 2s;
+    position: relative;
+    margin-left: 0%;
+   
+}
+
+.first{}
 
 
+
+.icon-container{
+    position: absolute;
+    margin-top: -270px;
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.icon-container i{
+    cursor: pointer;
+}
 
 
 
@@ -39,8 +108,54 @@
     width: 100%;
     min-height: 250px;
     background-color: rgb(243, 243, 243);
-    padding: 30px 200px 200px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
 }
+
+.projects-content{
+    width: 60%;
+    height: 90%;
+    text-align: center;
+
+}
+
+
+.project-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.project{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 15px;
+    font-size: 15px;
+
+}
+
+.project h2 {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .container-main{
@@ -57,7 +172,12 @@
     width: 100%;
     min-height: 250px;
     background-color: rgb(17, 17, 17);
-    padding: 30px 200px 200px 0px;
-
+    display: flex;
+    justify-content: center;
 
 }
+
+.content-footer{
+    width: 60%;
+}
+

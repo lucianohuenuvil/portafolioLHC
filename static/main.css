@@ -117,6 +117,7 @@ h1, h2, h3, h4, h5, h6, p, b {
 .projects-content{
     width: 60%;
     height: 90%;
+    align-items: center;
     text-align: center;
 
 }
@@ -127,7 +128,8 @@ h1, h2, h3, h4, h5, h6, p, b {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+
     padding-bottom: 50px;
 
 }
@@ -137,7 +139,15 @@ h1, h2, h3, h4, h5, h6, p, b {
     height: auto;
     margin: 10px;
     padding: 15px;
+    padding-left: 40x;
+    padding-right: 40px;
     font-size: 15px;
+    
+
+}
+
+.project img{
+
 
 }
 
@@ -149,23 +159,79 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 
 
-
-
-
-
-
-
-
-
-
 .container-main{
 
     width: 100%;
     min-height: 250px;
     background-color: rgb(255, 255, 255);
-    padding: 30px 200px 200px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+
+
+.main-content{
+    width: 60%;
+    height: 90%;
+    align-items: center;
+    text-align: center;
 
 }
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-bottom: 50px;
+
+}
+
+.main{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    padding-left: 40x;
+    padding-right: 40px;
+    font-size: 15px;
+
+}
+
+.main h2 {
+    font-size: 10px;
+}
+
+.main img{
+    width: 80px;
+    height: 80px;
+}
+
+.main img:hover{
+
+    opacity: 0.7;
+      
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container-footer{
 
@@ -180,4 +246,6 @@ h1, h2, h3, h4, h5, h6, p, b {
 .content-footer{
     width: 60%;
 }
+
+
 

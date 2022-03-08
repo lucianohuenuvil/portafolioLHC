@@ -44,3 +44,15 @@ function cambiarIzquierda()   {
             break;
     }
 }
+
+
+function navresponsive(){
+    if (document.querySelector(".link-nav-container-responsive").style.marginLeft == "-100%"){
+        document.querySelector(".link-nav-container-responsive").style.marginLeft = "0%";
+
+    } 
+    else{
+        document.querySelector(".link-nav-container-responsive").style.marginLeft = "-100%";
+    }
+    
+}

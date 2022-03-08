@@ -18,29 +18,65 @@
 </head>
 <body>
     <div class="container-content-page">
+
         <nav class="container-navbar">
-            <div class="main-navbar">
-              <h1>LAHC:Luciano Huenuvil Cádiz</h1>
-            </div>
-            <div class="item-navbar">
-              <div class="item">
-                <a href="">Home</a>
+
+            <div class="navbar-content">
+
+
+              <div class="main-navbar">
+                <a href=""> <h1>  LAHC:Luciano Huenuvil Cádiz</h1></a> 
               </div>
-              <div class="item">
-                <a href="">Contacto</a>
-              </div>
-              <div class="item">
-                <a href="">Proyectos</a>
-              </div>
-              <div class="item">
-                <a href="">Conocimientos</a>
+
+              <div class="main-navbar-responsive">
+                <div>
+                  <h1>LAHC</h1>
+
+                </div>
+
+                <div class="responsive-icon">
+                  <a onclick="navresponsive()"> <i  class="fas fa-bars"></i> </a>
+                </div>
+                
               </div>
 
 
 
-            </div>
+              <div class="item-navbar">
+                <div class="item">
+                  <a href="#">Home</a>
+                </div>
+                <div class="item">
+                  <a onClick="ir_a()" href="/contacto">Contacto</a>
+                </div>
+                <div class="item">
+                  <a onClick="ir_a()" href="#proyectos">Proyectos</a>
+                </div>
+                <div class="item">
+                  <a href="#conocimientos">Conocimientos</a>
+                </div>
+              </div>
+
+
+
+              <div class="link-nav-container-responsive" style="margin-left:-100%" >
+                <a onClick="ir_a()" href="#contacto">Home</a>
+                <a onClick="ir_a()" href="#proyectos">Contacto</a>
+                <a onClick="ir_a()" href="#contacto">Proyectos</a>
+                <a onClick="ir_a()" href="#contacto">Conocimientos</a>
+      
+              </div>
+
+          </div>
+    
 
         </nav>
+
+
+
+
+
+
         <div class="container-slider">
             <div class="container-slider-content">
               <div id="Slide" class="first slides">
@@ -79,7 +115,7 @@
         </div>
     </div>
   
-    <div class="container-projects">
+    <div class="container-projects" id="proyectos">
 
       <div class="projects-content"> 
         <h2> Proyectos realizados </h2>
@@ -89,15 +125,15 @@
             <div class="card" style="width: 18rem;">
               <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Buscador Gift e imágenes</h5>
-
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="https://imagegift.netlify.app/" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="project">
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="/static/img/imagen.png" alt="Card image cap" >
+              <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap" >
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -109,7 +145,7 @@
           </div>
           <div class="project">
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="/static/img/imagen.png" alt="Card image cap">
+              <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -120,7 +156,7 @@
           </div>
           <div class="project">
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="/static/img/imagen.png" alt="Card image cap">
+              <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -131,7 +167,7 @@
           </div>
           <div class="project">
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="/static/img/imagen.png" alt="Card image cap">
+              <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -142,7 +178,29 @@
           </div>
           <div class="project">
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="/static/img/imagen.png" alt="Card image cap">
+              <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="project">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="project">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="/static/img/busquedapp.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -161,7 +219,7 @@
     </div>
 
       
-    <main class="container-main">
+    <main class="container-main" id="conocimientos">
 
       <div class="main-content">
         <h2>Conocimientos</h2>
@@ -194,44 +252,55 @@
       </div>
 
 
+
+
+
+
+
+
       
 
     </main>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
             
       <footer class="container-footer text-center text-white">
         <div class="content-footer">
-        <!-- Grid container -->
+          
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/luciano.huenuvil" role="button"
               ><i class="fab fa-facebook-f"></i
             ></a>
 
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-
             <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/luciano.h.c/" role="button"
               ><i class="fab fa-instagram"></i
             ></a>
 
             <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="#!" role="button"
               ><i class="fab fa-linkedin-in"></i
             ></a>
 
             <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="www.github.com" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="" role="button"
               ><i class="fab fa-github"></i
             ></a>
           </section>
@@ -240,9 +309,10 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <div class="text-center p-3">
+          <h4>Todos los derechos reservados</h3>
+          <h5>Luciano Huenuvil Cádiz</h5>
+          <p>Desarrollador web</p>
         </div>
         <!-- Copyright -->
       </div>

@@ -102,6 +102,37 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 }
 
+
+
+.container-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    padding: 50px;
+
+    
+}
+
+.container-form form{
+
+
+    width: 60%;
+    background-color: rgb(233, 233, 233);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    color: black;
+}
+
+.container-form h3{
+
+  text-align: center;
+}
+
+
+
 .container-slider-content{
 
     width: 500%;
@@ -261,20 +292,12 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 
 
-
-
-
-
-
-
 .container-footer{
-
     width: 100%;
     min-height: 250px;
     background-color: rgb(17, 17, 17);
     display: flex;
     justify-content: center;
-
 }
 
 .content-footer{
@@ -448,8 +471,17 @@ h1, h2, h3, h4, h5, h6, p, b {
     }
 
 
+    .container-form{
+
+        padding: 10px;
+
+    }
 
 
+    .container-form form{
+        width: 100%;
+    }
+    
 
 
 

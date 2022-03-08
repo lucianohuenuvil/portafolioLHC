@@ -10,6 +10,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e442689a94.js" crossorigin="anonymous"></script>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
     <script src="/static/main.js"></script>
     <link rel="stylesheet" href="/static/main.css">
     <title>LAHC</title>
@@ -38,7 +40,7 @@
                   <a href="#">Home</a>
                 </div>
                 <div class="item">
-                  <a onClick="ir_a()" href="/pages/contacto">Contacto</a>
+                  <a onClick="ir_a()" href="#contacto">Contacto</a>
                 </div>
                 <div class="item">
                   <a onClick="ir_a()" href="#proyectos">Proyectos</a>
@@ -50,10 +52,10 @@
 
 
               <div class="link-nav-container-responsive" style="margin-left:-100%" >
-                <a onClick="ir_a()" href="#contacto">Home</a>
-                <a onClick="ir_a()" href="#proyectos">Contacto</a>
-                <a onClick="ir_a()" href="#contacto">Proyectos</a>
-                <a onClick="ir_a()" href="#contacto">Conocimientos</a>
+                <a onClick="ir_a()" href="/">Home</a>
+                <a onClick="ir_a()" href="#contacto">Contacto</a>
+                <a onClick="ir_a()" href="#proyectos">Proyectos</a>
+                <a onClick="ir_a()" href="#conocimientos">Conocimientos</a>
               </div>
 
           </div>
@@ -86,9 +88,9 @@
               </div>
 
               <div  class="slides ">
-                <h4>Egresawwerdo en:</h4>
-                <h1> ddfff civil eee</h1>
-                <p>Universidssssad sssandrés dfdbello</p>
+                <h4>Puedes visitar todos mis proyectos realizado</h4>
+                <h1>Contactame presionando <a href="#contacto"> Aquí </a></h1>
+                <p>Cuéntame que deseas desarrollar</p>
               </div>
 
 
@@ -96,9 +98,7 @@
             <div class="icon-container">
               <i onClick="cambiarIzquierda()" class="fas fa-arrow-left"></i>
               <i onClick="cambiarDerecha()" class="fas fa-arrow-right"></i>
-
             </div>
-
 
         </div>
     </div>
@@ -248,7 +248,7 @@
 
 
 
-        <div class="container-form">
+        <div class="container-form" id="contacto">
 
             <form >
                 <h3>Formulario de contacto</h3>
@@ -326,3 +326,5 @@
 
 </body>
 </html>
+
+

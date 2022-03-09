@@ -94,6 +94,9 @@ h1, h2, h3, h4, h5, h6, p, b {
     display: flex;
 }
 
+
+
+
 .item{
     
     font-size: 20px;
@@ -101,6 +104,9 @@ h1, h2, h3, h4, h5, h6, p, b {
     padding-right: 10px;
 }
 
+.item a{
+    color: #2272a7;
+}
 
 
 
@@ -111,6 +117,7 @@ h1, h2, h3, h4, h5, h6, p, b {
     height: 85%;
     color: white;
     overflow: hidden;
+    position: relative;
     
 
 }
@@ -165,12 +172,16 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 
 .icon-container{
+    
     position: absolute;
-    margin-top: -270px;
+    height: 100%;
     padding: 0px 5px 0px 5px;
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: space-between;
+    margin: auto;
+    top: 0;
+    align-items: center;
 
 }
 
@@ -481,14 +492,7 @@ h1, h2, h3, h4, h5, h6, p, b {
     
     }
 
-    .icon-container{
-        position: absolute;
-        margin-top: -140px;
-        padding: 0px 5px 0px 5px;
-        display: flex;
-        width: 90%;
-        justify-content: space-between;
-    }
+    
 
 
 
@@ -660,15 +664,7 @@ h1, h2, h3, h4, h5, h6, p, b {
     
     }
 
-    .icon-container{
-        position: absolute;
-        margin-top: -140px;
-        padding: 0px 5px 0px 5px;
-        display: flex;
-        width: 90%;
-        justify-content: space-between;
-    }
-
+    
 
 
     .container-content-page{

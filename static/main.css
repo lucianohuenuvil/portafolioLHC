@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 
 
+
 .container-content-page{
     width: 100%;
     height: 80vh;
@@ -41,6 +42,11 @@ h1, h2, h3, h4, h5, h6, p, b {
     flex-wrap: wrap;
    
 }
+
+.container-navbar a{
+    color: black;   
+}
+
 
 
 .navbar-content{
@@ -149,7 +155,7 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 .slides{
     width: 20%;
-    transition: 2s;
+    transition: 1s;
     position: relative;
     margin-left: 0%;
    
@@ -352,6 +358,8 @@ h1, h2, h3, h4, h5, h6, p, b {
 @media only screen and (max-height: 400px){
 
 
+    
+    
 
     .container-content-page{
         height: 90vh;
@@ -539,6 +547,14 @@ h1, h2, h3, h4, h5, h6, p, b {
 @media only screen and (max-width: 640px){
 
 
+
+    .slides h1{
+        font-size: 20px;
+    }
+
+    .slides h2{
+        font-size: 15px;
+    }
 
     .card{
         width: 15rem;

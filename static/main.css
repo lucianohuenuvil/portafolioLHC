@@ -5,12 +5,9 @@
 }
 
 
-
-
 h1, h2, h3, h4, h5, h6, p, b {
     margin: 0;
 }
-
 
 
 
@@ -26,6 +23,11 @@ h1, h2, h3, h4, h5, h6, p, b {
     padding-bottom: 50px;
     
 }
+
+.card{
+    width: 18rem;
+}
+
 
 
 .container-navbar{
@@ -43,10 +45,16 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 .navbar-content{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+
+.navbar-content h1{
+    font-size: 25px;
 }
 
 .main-navbar{
@@ -102,7 +110,6 @@ h1, h2, h3, h4, h5, h6, p, b {
 }
 
 
-
 .container-form{
     width: 100%;
     height: 100%;
@@ -110,36 +117,33 @@ h1, h2, h3, h4, h5, h6, p, b {
     justify-content: center;
     background-color: rgb(243, 243, 243);
     padding: 50px;
-
     
 }
 
 .container-form form{
-
-
     width: 60%;
     background-color: rgb(233, 233, 233);
     margin: 20px;
     padding: 30px;
     border-radius: 8px;
     color: black;
+
 }
 
-.container-form h3{
 
+.container-form h3{
   text-align: center;
+
 }
 
 
 
 .container-slider-content{
-
     width: 500%;
     height: 100%;
     display: flex;
     text-align: center;
     align-items: center;
-    
 
 }
 
@@ -161,6 +165,7 @@ h1, h2, h3, h4, h5, h6, p, b {
     display: flex;
     width: 70%;
     justify-content: space-between;
+
 }
 
 .icon-container i{
@@ -325,9 +330,9 @@ h1, h2, h3, h4, h5, h6, p, b {
        
     }
 
-
-
-
+    .navbar-content{
+        justify-content: center;
+    }
 
 
 }
@@ -344,7 +349,184 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 
 
+@media only screen and (max-height: 400px){
 
+
+
+    .container-content-page{
+        height: 90vh;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+        
+    }
+
+
+    .card{
+        width: 14rem;
+    }
+
+    .main img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .projects-content{
+        width: 90%;
+    }
+
+
+    .main-content{
+        width: 80%;
+    }
+
+
+    
+    .main-navbar{
+        display: none;
+    }
+
+
+
+    .container-navbar{
+
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+    }
+
+    .navbar-content{
+        display: block;
+        flex-wrap: nowrap;
+    }
+
+
+    .main-navbar-responsive{
+
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+
+
+      
+      
+    .link-nav-container-responsive{
+ 
+        display: flex;
+        width: 100%;
+        background-color: #18202c;
+        position: absolute;
+        text-align: center;
+        flex-direction: column;
+        z-index: 1;
+        transition: 1s;
+
+
+    }
+
+    .link-nav-container-responsive a{
+        text-decoration: none;
+        padding: 20px;
+        color: #fff;
+        border: solid 1px white;
+        font-size: 20px;
+
+        
+    }
+
+
+    .link-nav-container-responsive a:hover{
+        color: #2272a7;
+    }
+
+
+
+
+
+    .responsive-icon i{
+        font-size: 25px;
+        cursor: pointer;
+        display: flex;
+
+
+        
+    }
+
+
+
+    .item-navbar{
+        display: none;
+    }
+
+
+    .container-slider{
+
+        width: 90%;
+    
+    }
+
+    .icon-container{
+        position: absolute;
+        margin-top: -140px;
+        padding: 0px 5px 0px 5px;
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
+    .container-form{
+
+        padding: 10px;
+
+    }
+
+
+    .container-form form{
+        width: 100%;
+    }
+    
+
+
+
+    .main-content{
+        width: 90%;    
+    }
+    
+
+
+    
+
+    .main-container{
+
+        justify-content: space-between;
+
+    }
+
+    .main{
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+ 
+
+    }
+
+
+
+}
 
 
 
@@ -355,6 +537,17 @@ h1, h2, h3, h4, h5, h6, p, b {
 
 
 @media only screen and (max-width: 640px){
+
+
+
+    .card{
+        width: 15rem;
+    }
+
+    .main img{
+        width: 60px;
+        height: 60px;
+    }
 
 
     .main-navbar{
@@ -385,6 +578,7 @@ h1, h2, h3, h4, h5, h6, p, b {
         position: relative;
         display: flex;
         width: 100%;
+        height: 100%;
         padding: 10px;
         justify-content: space-between;
         align-items: center;
@@ -405,7 +599,7 @@ h1, h2, h3, h4, h5, h6, p, b {
         flex-direction: column;
         z-index: 1;
         transition: 1s;
-        top: 52px;
+
 
     }
 

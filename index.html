@@ -243,17 +243,22 @@
           <form name="fomulario-contacto" netlify>
               <h3>Formulario de contacto</h3>
               <div class="form-group">
-                <label for="exampleInputEmail1">Nombre:</label>
-                <input type="text" name="name" class="form-control" aria-describedby="emailHelp" placeholder="Ingresa tu nombre y apellido">
+                <label>Nombre:</label>
+                <input type="text" name="name" class="form-control" aria-describedby="emailHelp" minlength="3" placeholder="Ingresa tu nombre y apellido">
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Correo</label>
+                <label>Correo</label>
                 <input type="email" name="email" class="form-control" placeholder="Ingresa tu correo">
               </div>
               <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Asunto</label>
+                  <label>Asunto</label>
                   <textarea class="form-control" name="asunto" id="exampleFormControlTextarea1" rows="3" placeholder="Ingresa un texto"></textarea>
                 </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 

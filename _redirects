@@ -1,1 +1,3 @@
-/en/* /en/not-found.html 404
+[[redirects]]
+  to = "/not-found"
+  status = 404

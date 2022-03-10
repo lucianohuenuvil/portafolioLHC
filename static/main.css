@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6, p, b {
     display: flex;
     flex-direction: column;
     padding-top: 80px;
+  
     padding-bottom: 50px;
     
 }
@@ -552,6 +553,9 @@ h1, h2, h3, h4, h5, h6, p, b {
 @media only screen and (max-width: 640px){
 
 
+    .container-content-page{
+        filter: brightness(1.75);
+        }
 
     .slides h1{
         font-size: 20px;

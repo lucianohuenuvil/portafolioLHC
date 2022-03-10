@@ -435,6 +435,7 @@ h1, h2, h3, h4, h5, h6, p, b {
     }
 
 
+    
       
       
     .link-nav-container-responsive{
@@ -561,7 +562,7 @@ h1, h2, h3, h4, h5, h6, p, b {
     }
 
     .card{
-        width: 15rem;
+        width: 20rem;
     }
 
     .main img{
@@ -581,16 +582,33 @@ h1, h2, h3, h4, h5, h6, p, b {
         width: 100%;
         flex-wrap: nowrap;
         justify-content: space-between;
+        height: 25%;
+        background-color: #eeeeee;
   
    
 
 
     }
 
+    .container-projects{
+        padding-top: 15px;
+        border-top: solid 10px rgb(213, 213, 213);
+    }
+
+    .icon-container{
+        padding: 0px;
+    }
+
     .navbar-content{
         display: block;
         flex-wrap: nowrap;
     }
+
+
+    .projects-content{
+        width: 90%;
+    }
+
 
 
     .main-navbar-responsive{
@@ -607,6 +625,16 @@ h1, h2, h3, h4, h5, h6, p, b {
     }
 
 
+    
+
+    .container-navbar h1{
+
+        font-size: 30px;
+        
+        
+    }
+
+
       
       
     .link-nav-container-responsive{
@@ -618,7 +646,7 @@ h1, h2, h3, h4, h5, h6, p, b {
         text-align: center;
         flex-direction: column;
         z-index: 1;
-        transition: 1s;
+        transition: .5s;
 
 
     }
